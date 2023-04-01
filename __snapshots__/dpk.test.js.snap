@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`deterministicPartitionKey Returns a hash when partition key is not provided 1`] = `"de8bb975b898b524a6dc641acac54df5dbbd84320e8d87bca24098f17c754a20d3d7b6d131969cef58be21577a5833debbe8f673303649ee44b34b26f119909b"`;
