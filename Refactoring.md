@@ -9,3 +9,9 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+To refactor the function, I used some refactoring techniques to make the reading and the maintainability easy. Before the refactoring I mapped the scenarios and wrote the unit tests. The first choice I've made was handling cases when the event is null. The second one was creating a new function to generate the Hash. After that, I started to implement returns for each statement that makes sense. With that technique It was possible to remove all `else` statements, delete the `candidates` temporary variable and keep the code more readable.
+
+Some techniques I used:
+https://sourcemaking.com/refactoring/replace-temp-with-query
+https://sourcemaking.com/refactoring/split-temporary-variable
